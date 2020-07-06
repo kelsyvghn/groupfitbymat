@@ -4,7 +4,6 @@
   "description": "group fit by mat",
   "main": "public/server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon public/server/index.js",
     "build:react": "webpack -d",
     "watch:build": "webpack -d --watch"

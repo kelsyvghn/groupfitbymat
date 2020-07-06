@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // to display static file = html
-app.use(express.static(path.join(__dirname, '/public/dist')));
+app.use(express.static(path.join(__dirname, '../dist')));
 
 app.get('/', (req, res) => {
     res.send('hi this is your homepage');
