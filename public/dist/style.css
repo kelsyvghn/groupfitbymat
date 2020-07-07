@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(207, 8, 8);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#app {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+#about {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+#contact {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+#recent {
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+#schedule {
+    width: 100%;
+    height: 528px;
+    padding: 10px;  
+}
+
+.section-title {
+    color: rgb(207, 8, 8);
+}
+
+.main-header {
+    width: 100%;
+    background: white;
+    padding: 0px 10px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    height: max-content;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: 70%;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    list-style: none; 
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* .main-nav__item a {
+    color: black;
+}
+
+.main-nav__item a:hover {
+    color: black;
+    
+}
+.main-nav__item a:active {
+    color: grey; */
+
+/* } */
+
+a {
+    text-decoration: none;
+    color:  black;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: grey;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: teal;
+  }
+  
+  /* selected link */
+  a:active {
+    color: gold;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  @media(max-width: 768px) {
+      .main-header {
+          width: 100%;
+          height: 80%;
+      }
+
+      #name {
+          width: 50%;
+      }
+      #subtitle {
+          width: 50%;
+      }
+      img {
+          width: 50%;
+          position: absolute;
+          top: 10%;
+      }
+      #summary {
+          margin: 10% !important;
+          display: block;
+          background-color: rgb(207, 8, 8);
+          height: 100%;
+      }
+
+  }

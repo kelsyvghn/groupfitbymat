@@ -1,4 +1,13 @@
 .home {
-    color: white;
-    
+    color: black;
+    display: flexbox;
+    font-size: 40px;
 }
+
+.pic {
+    position: absolute;
+    height: 100%;
+    left: 25%;
+    text-align: center;
+}
+

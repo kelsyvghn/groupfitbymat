@@ -43,6 +43,6 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.join(__dirname, '/public/bundles'),
+    path: path.join(__dirname, '/public/dist/bundles'),
   },
 };
